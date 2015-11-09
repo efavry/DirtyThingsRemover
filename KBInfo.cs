@@ -45,6 +45,10 @@ namespace DirtyThingsRemover
             {
                 MessageBox.Show("The File : \n" + path + " was not read\nThe message was :\n" + e.Message);
             }
+            MessageBox.Show("Constructed KBINFO" + Environment.NewLine + 
+                            "Number : " + this.number.ToString() + Environment.NewLine +
+                            "Title : " + this.title + Environment.NewLine + 
+                            "Description : " + this.description);
         }
 
         /// <summary>
@@ -57,7 +61,6 @@ namespace DirtyThingsRemover
             if (toDec.StartsWith("number=", StringComparison.InvariantCultureIgnoreCase))
             {
                 toDec = toDec.Substring(7);
-                MessageBox.Show(toDec);
                 this.number = Int64.Parse(toDec);
             }
             else
@@ -95,6 +98,18 @@ namespace DirtyThingsRemover
             }
             else
                 throw new Exception("Bad KB Title was read \nEither the markup is bad or the file is not in correct order");
+        }
+
+        /// <summary>
+        /// Well you guess it it's an equals methode to test equality
+        /// kinda useless in this software
+        /// </summary>
+        /// <param name="other">the parameter that will be tested against</param>
+        /// <returns>true if equals</returns>
+        public bool Equals(KBInfo other)
+        {
+            // Return true if the fields match:
+            return this.number == other.number;
         }
     }
 }

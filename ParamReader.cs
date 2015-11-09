@@ -17,9 +17,14 @@ namespace DirtyThingsRemover
         {
             this.loadKB();
         }
-        public void readKbDatabase()
+        public List<KBInfo> readKbDatabase()
         {
-
+            if(this.L_kbList.Count > 0)
+            {
+                return this.L_kbList;
+            }
+            else
+                return null;
         }
 
         private void loadKB()

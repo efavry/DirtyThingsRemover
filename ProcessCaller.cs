@@ -10,10 +10,10 @@ namespace DirtyThingsRemover
     //this class provide a simple way to call script or command
     class ProcessCaller
     {
-        public DtrForm ui;
-        public ProcessCaller(DtrForm ui)
+        //public DtrForm ui;
+        public ProcessCaller(/*DtrForm ui*/)
         {
-            this.ui = ui;
+          //  this.ui = ui;
         }
 
         /// <summary>

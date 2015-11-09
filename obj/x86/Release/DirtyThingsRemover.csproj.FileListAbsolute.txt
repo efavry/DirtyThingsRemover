@@ -1,3 +1,7 @@
 C:\Users\Qsm-Cqfd\Desktop\Projet\DirtyThingsRemover\DirtyThingsRemover\obj\x86\Release\DirtyThingsRemover.DtrForm.resources
 C:\Users\Qsm-Cqfd\Desktop\Projet\DirtyThingsRemover\DirtyThingsRemover\obj\x86\Release\DirtyThingsRemover.Properties.Resources.resources
 C:\Users\Qsm-Cqfd\Desktop\Projet\DirtyThingsRemover\DirtyThingsRemover\obj\x86\Release\DirtyThingsRemover.csproj.GenerateResource.Cache
+C:\Users\Qsm-Cqfd\Desktop\Projet\DirtyThingsRemover\DirtyThingsRemover\bin\Release\DirtyThingsRemover.exe
+C:\Users\Qsm-Cqfd\Desktop\Projet\DirtyThingsRemover\DirtyThingsRemover\bin\Release\DirtyThingsRemover.pdb
+C:\Users\Qsm-Cqfd\Desktop\Projet\DirtyThingsRemover\DirtyThingsRemover\obj\x86\Release\DirtyThingsRemover.exe
+C:\Users\Qsm-Cqfd\Desktop\Projet\DirtyThingsRemover\DirtyThingsRemover\obj\x86\Release\DirtyThingsRemover.pdb

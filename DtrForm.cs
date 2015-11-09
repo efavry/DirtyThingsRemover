@@ -16,8 +16,36 @@ namespace DirtyThingsRemover
         public DtrForm()
         {
             InitializeComponent();
-            this.O_processCaller= new ProcessCaller(this);
+            this.O_processCaller= new ProcessCaller(/*this*/);
             this.O_paramReader = new ParamReader();
+            this.O_paramReader.readKbDatabase();
+            this.optionListBox.Items.Add("Item \n bite");
+            this.dataGridView1.MultiSelect = true;
+            this.dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            this.dataGridView1.DefaultCellStyle.WrapMode = DataGridViewTriState.True;
+
+
+
+
+
+            DataGridViewTextBoxColumn explainColumn = new DataGridViewTextBoxColumn();
+            explainColumn.HeaderText = "Info";
+            //explainColumn.ReadOnly = true;
+            explainColumn.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            explainColumn.FillWeight = 75;
+            this.dataGridView1.Columns.Add(explainColumn);
+
+            this.dataGridView1.Rows.Add("First Line" + "\n" + "AAAA");
+
+            DataGridViewCheckBoxColumn chkToFix = new DataGridViewCheckBoxColumn();
+            chkToFix.HeaderText = "Fix ?";
+            chkToFix.Name = "chk";
+            chkToFix.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            chkToFix.FillWeight = 15;
+            chkToFix.ReadOnly = false;
+            this.dataGridView1.Columns.Insert(0, chkToFix);
+            this.dataGridView1.Rows[0].Cells[0].Value = true;
         }
 
         public void writeLineInUI(String toWrite)
@@ -41,6 +69,23 @@ namespace DirtyThingsRemover
         private void quitButton_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        /// <summary>
+        /// 
+        /// This function is shameful for me but i was not able to find a better way for the checkbox 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.ColumnIndex == 0)
+            {
+                if ((Boolean)this.dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex].Value == true)
+                    this.dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex].Value = false;
+                else
+                    this.dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex].Value = true;
+            }
         }
     }
 }
