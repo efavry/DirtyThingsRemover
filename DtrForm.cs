@@ -16,10 +16,10 @@ namespace DirtyThingsRemover
         public DtrForm()
         {
             InitializeComponent();
+            this.CenterToScreen();
             this.O_processCaller= new ProcessCaller(/*this*/);
             this.O_paramReader = new ParamReader();
             this.O_paramReader.readKbDatabase();
-            this.optionListBox.Items.Add("Item \n bite");
             this.dataGridView1.MultiSelect = true;
             this.dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
@@ -42,7 +42,7 @@ namespace DirtyThingsRemover
             chkToFix.HeaderText = "Fix ?";
             chkToFix.Name = "chk";
             chkToFix.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            chkToFix.FillWeight = 15;
+            chkToFix.FillWeight = 5;
             chkToFix.ReadOnly = false;
             this.dataGridView1.Columns.Insert(0, chkToFix);
             this.dataGridView1.Rows[0].Cells[0].Value = true;
@@ -72,7 +72,7 @@ namespace DirtyThingsRemover
         }
 
         /// <summary>
-        /// 
+        /// This fuction will take in charge the behaviour of the check box in the datagridview
         /// This function is shameful for me but i was not able to find a better way for the checkbox 
         /// </summary>
         /// <param name="sender"></param>

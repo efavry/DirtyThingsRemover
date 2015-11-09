@@ -32,21 +32,20 @@
             this.quitButton = new System.Windows.Forms.Button();
             this.launchButton = new System.Windows.Forms.Button();
             this.consoleOut = new System.Windows.Forms.TextBox();
-            this.optionListBox = new System.Windows.Forms.ListBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(12, 230);
+            this.progressBar1.Location = new System.Drawing.Point(12, 443);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(446, 23);
             this.progressBar1.TabIndex = 0;
             // 
             // quitButton
             // 
-            this.quitButton.Location = new System.Drawing.Point(545, 230);
+            this.quitButton.Location = new System.Drawing.Point(545, 443);
             this.quitButton.Name = "quitButton";
             this.quitButton.Size = new System.Drawing.Size(75, 23);
             this.quitButton.TabIndex = 1;
@@ -56,7 +55,7 @@
             // 
             // launchButton
             // 
-            this.launchButton.Location = new System.Drawing.Point(464, 230);
+            this.launchButton.Location = new System.Drawing.Point(464, 443);
             this.launchButton.Name = "launchButton";
             this.launchButton.Size = new System.Drawing.Size(75, 23);
             this.launchButton.TabIndex = 2;
@@ -66,23 +65,12 @@
             // 
             // consoleOut
             // 
-            this.consoleOut.Location = new System.Drawing.Point(12, 115);
+            this.consoleOut.Location = new System.Drawing.Point(12, 328);
             this.consoleOut.Multiline = true;
             this.consoleOut.Name = "consoleOut";
             this.consoleOut.ReadOnly = true;
             this.consoleOut.Size = new System.Drawing.Size(608, 109);
             this.consoleOut.TabIndex = 4;
-            // 
-            // optionListBox
-            // 
-            this.optionListBox.FormattingEnabled = true;
-            this.optionListBox.HorizontalScrollbar = true;
-            this.optionListBox.Location = new System.Drawing.Point(13, 13);
-            this.optionListBox.MultiColumn = true;
-            this.optionListBox.Name = "optionListBox";
-            this.optionListBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.optionListBox.Size = new System.Drawing.Size(607, 95);
-            this.optionListBox.TabIndex = 5;
             // 
             // dataGridView1
             // 
@@ -90,11 +78,11 @@
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(97, 280);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(608, 310);
             this.dataGridView1.TabIndex = 6;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -104,11 +92,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(636, 476);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.optionListBox);
             this.Controls.Add(this.consoleOut);
             this.Controls.Add(this.launchButton);
             this.Controls.Add(this.quitButton);
             this.Controls.Add(this.progressBar1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "DtrForm";
             this.Text = "DirtyWindowsThingsRemover";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -123,7 +112,6 @@
         private System.Windows.Forms.Button quitButton;
         private System.Windows.Forms.Button launchButton;
         private System.Windows.Forms.TextBox consoleOut;
-        private System.Windows.Forms.ListBox optionListBox;
         private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
