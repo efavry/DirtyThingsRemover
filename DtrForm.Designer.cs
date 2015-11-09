@@ -1,0 +1,108 @@
+﻿namespace DirtyThingsRemover
+{
+    partial class DtrForm
+    {
+        /// <summary>
+        /// Variable nécessaire au concepteur.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Nettoyage des ressources utilisées.
+        /// </summary>
+        /// <param name="disposing">true si les ressources managées doivent être supprimées ; sinon, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Code généré par le Concepteur Windows Form
+
+        /// <summary>
+        /// Méthode requise pour la prise en charge du concepteur - ne modifiez pas
+        /// le contenu de cette méthode avec l'éditeur de code.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.quitButton = new System.Windows.Forms.Button();
+            this.launchButton = new System.Windows.Forms.Button();
+            this.optionListBox = new System.Windows.Forms.CheckedListBox();
+            this.consoleOut = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(12, 230);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(446, 23);
+            this.progressBar1.TabIndex = 0;
+            // 
+            // quitButton
+            // 
+            this.quitButton.Location = new System.Drawing.Point(545, 230);
+            this.quitButton.Name = "quitButton";
+            this.quitButton.Size = new System.Drawing.Size(75, 23);
+            this.quitButton.TabIndex = 1;
+            this.quitButton.Text = "Quit";
+            this.quitButton.UseVisualStyleBackColor = true;
+            this.quitButton.Click += new System.EventHandler(this.quitButton_Click);
+            // 
+            // launchButton
+            // 
+            this.launchButton.Location = new System.Drawing.Point(464, 230);
+            this.launchButton.Name = "launchButton";
+            this.launchButton.Size = new System.Drawing.Size(75, 23);
+            this.launchButton.TabIndex = 2;
+            this.launchButton.Text = "Do selected";
+            this.launchButton.UseVisualStyleBackColor = true;
+            this.launchButton.Click += new System.EventHandler(this.launchButton_Click);
+            // 
+            // optionListBox
+            // 
+            this.optionListBox.FormattingEnabled = true;
+            this.optionListBox.Location = new System.Drawing.Point(13, 14);
+            this.optionListBox.Name = "optionListBox";
+            this.optionListBox.Size = new System.Drawing.Size(607, 94);
+            this.optionListBox.TabIndex = 3;
+            // 
+            // consoleOut
+            // 
+            this.consoleOut.Location = new System.Drawing.Point(12, 115);
+            this.consoleOut.Multiline = true;
+            this.consoleOut.Name = "consoleOut";
+            this.consoleOut.ReadOnly = true;
+            this.consoleOut.Size = new System.Drawing.Size(608, 109);
+            this.consoleOut.TabIndex = 4;
+            // 
+            // DtrForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(632, 265);
+            this.Controls.Add(this.consoleOut);
+            this.Controls.Add(this.optionListBox);
+            this.Controls.Add(this.launchButton);
+            this.Controls.Add(this.quitButton);
+            this.Controls.Add(this.progressBar1);
+            this.Name = "DtrForm";
+            this.Text = "DirtyWindowsThingsRemover";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.Button quitButton;
+        private System.Windows.Forms.Button launchButton;
+        private System.Windows.Forms.CheckedListBox optionListBox;
+        private System.Windows.Forms.TextBox consoleOut;
+    }
+}
+

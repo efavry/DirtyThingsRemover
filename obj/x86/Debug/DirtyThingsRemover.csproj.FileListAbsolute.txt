@@ -1,0 +1,15 @@
+C:\Users\Qsm-Cqfd\AppData\Local\Temporary Projects\DirtyThingsRemover\bin\Debug\DirtyThingsRemover.exe
+C:\Users\Qsm-Cqfd\AppData\Local\Temporary Projects\DirtyThingsRemover\bin\Debug\DirtyThingsRemover.pdb
+C:\Users\Qsm-Cqfd\AppData\Local\Temporary Projects\DirtyThingsRemover\obj\x86\Debug\DirtyThingsRemover.Properties.Resources.resources
+C:\Users\Qsm-Cqfd\AppData\Local\Temporary Projects\DirtyThingsRemover\obj\x86\Debug\DirtyThingsRemover.csproj.GenerateResource.Cache
+C:\Users\Qsm-Cqfd\AppData\Local\Temporary Projects\DirtyThingsRemover\obj\x86\Debug\DirtyThingsRemover.exe
+C:\Users\Qsm-Cqfd\AppData\Local\Temporary Projects\DirtyThingsRemover\obj\x86\Debug\DirtyThingsRemover.pdb
+C:\Users\Qsm-Cqfd\AppData\Local\Temporary Projects\DirtyThingsRemover\obj\x86\Debug\DirtyThingsRemover.DtrForm.resources
+C:\Users\Qsm-Cqfd\Desktop\Projet\DirtyThingsRemover\DirtyThingsRemover\obj\x86\Debug\DirtyThingsRemover.exe
+C:\Users\Qsm-Cqfd\Desktop\Projet\DirtyThingsRemover\DirtyThingsRemover\obj\x86\Debug\DirtyThingsRemover.pdb
+C:\Users\Qsm-Cqfd\Desktop\Projet\DirtyThingsRemover\DirtyThingsRemover\bin\Debug\DirtyThingsRemover.exe
+C:\Users\Qsm-Cqfd\Desktop\Projet\DirtyThingsRemover\DirtyThingsRemover\bin\Debug\DirtyThingsRemover.pdb
+C:\Users\Qsm-Cqfd\Desktop\Projet\DirtyThingsRemover\DirtyThingsRemover\obj\x86\Debug\DirtyThingsRemover.DtrForm.resources
+C:\Users\Qsm-Cqfd\Desktop\Projet\DirtyThingsRemover\DirtyThingsRemover\obj\x86\Debug\DirtyThingsRemover.Properties.Resources.resources
+C:\Users\Qsm-Cqfd\Desktop\Projet\DirtyThingsRemover\DirtyThingsRemover\obj\x86\Debug\DirtyThingsRemover.csproj.GenerateResource.Cache
+C:\Users\Qsm-Cqfd\Desktop\Projet\DirtyThingsRemover\DirtyThingsRemover\obj\x86\Debug\DirtyThingsRemover.csprojResolveAssemblyReference.cache
