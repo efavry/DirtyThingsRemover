@@ -55,12 +55,12 @@ namespace DirtyThingsRemover
 
         private void launchButton_Click(object sender, EventArgs e)
         {
-            //KBInfo kbi = new KBInfo(16, "lol", "lol");
             //Console.WriteLine(kbi.description);
             //this.writeLineInUI(kbi.description);
             //O_processCaller.callPowerShellByCommand("pause");/*Get-Process*/ //work
             //O_processCaller.callCmdByScript("test.bat");
             //O_processCaller.callPowerShellByScript(".\\test.ps1");
+            //TODO add a for that walk in the checkbox and get the corresponding kb to clean
         }
 
         /// <summary>
